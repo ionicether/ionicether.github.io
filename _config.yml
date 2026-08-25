@@ -1,0 +1,6 @@
+title: Ian Morley
+description: DevOps Engineer
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
+logo: /assets/img/photo.jpg
