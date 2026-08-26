@@ -8,8 +8,8 @@ I am also a member of the InfraGard National Members Alliance, an association of
 
 - 20 years managing Microsoft, Linux, and MacOS systems as a SysAdmin
 - Nine years managing Azure and VMware environments, with hybrid cloud expertise
-- Proficient in scripting and automation using PowerShell, ARM templates, and Azure CLI
-- Extensive experience with Azure, IaC, DevOps, SQL, M365, Entra
+- Proficient in scripting and automation across JavaScript, PowerShell, Bash, and Python
+- Experienced with Kubernetes, Bicep, Terraform, Ansible, Puppet
 - Led cross-functional teams to implement secure, scalable cloud infrastructures
 - Mentored junior engineers and provided training on cloud technologies
 
