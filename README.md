@@ -1,8 +1,9 @@
 ## About Me
 
-I am a DevOps Engineer/Cloud Architect/Systems Engineer with nearly two decades of enterprise systems experience and nine years leading Azure-focused hybrid environments. I structure and implement cloud migrations, enhance security posture, and provide a robust disaster recovery plan across regulated and high-availability infrastructures. I work in Azure, identity architecture, SIEM implementation, and infrastructure automation using PowerShell and IaC (Kubernetes, Bicep, Terraform, Ansible) practices. My objective is to turn business risk into a solution that is practical in terms of technology, achieving cost-effectiveness at scale and performance: to drive teams to achieve modernization initiatives that enhance reliability and security.
+Enterprise systems specialist with nine years in DevOps across hybrid cloud, backed by nearly two decades in enterprise infrastructure. Builds and operates CI/CD pipelines and Kubernetes platforms, leads cloud migrations from assessment through cutover, and designs disaster recovery that holds up under audit and under load. Works across cloud IaaS and PaaS, identity and access architecture, SIEM implementation and tuning, and infrastructure automation with PowerShell, Terraform, and Ansible. Comfortable in regulated, high-availability environments where change control is strict and downtime carries real consequences, and effective at bringing modernization work from proposal to production.
 
-I am also a member of the InfraGard National Members Alliance, an association of the FBI with private individuals invested in protecting U.S. critical infrastructure and the American people. I am a Systems Engineer specializing in optimizing Azure and VMware resources and deploying best-in-class security solutions like Microsoft Sentinel. Demonstrated problem-solving skills and technical expertise in Azure DevOps Services through excelling in Intune management and disaster recovery.
+I am also a member of the InfraGard National Members Alliance, an association of the FBI with private individuals invested in protecting U.S. critical infrastructure
+
 
 ### Key Highlights
 
