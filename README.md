@@ -15,4 +15,4 @@ I am also a member of the InfraGard National Members Alliance, an association of
 
 ### Beyond Work
 
-Outside of my professional life, I'm passionate about photography, especially capturing the essence of **street and nature scenes**. I also enjoy **board games** and various types of **gaming**, where I bring a blend of strategic thinking and creativity.
+Outside of my professional life, I'm passionate about **photography**, especially capturing the essence of street and nature scenes. I also enjoy **board games** and various types of **gaming**, where I bring a blend of strategic thinking and creativity.
