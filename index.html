@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ian Garner Morley</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <aside>
+        <div class="side-scroll">
+          <div class="profile">
+            <div class="avatar-wrap">
+              <img class="avatar" id="avatar" alt="Ian Garner Morley" />
+            </div>
+            <p class="name">Ian Garner Morley</p>
+            <p class="title" id="title"></p>
+          </div>
+          <div class="block" id="facts-block">
+            <dl class="facts" id="facts"></dl>
+          </div>
+          <div class="block">
+            <h2 class="side-label">Languages on GitHub</h2>
+            <p class="side-note">Share of my public repos</p>
+            <div class="rings" id="rings">
+              <p class="status">Loading languages from GitHub…</p>
+            </div>
+          </div>
+          <div class="block" id="skills-block">
+            <div class="bars" id="bars"></div>
+          </div>
+          <div class="block" id="tools-block">
+            <ul class="checks" id="tools"></ul>
+          </div>
+          <div class="block" id="cv-block">
+            <a class="cv" id="cv">Request my resume</a>
+          </div>
+        </div>
+        <nav class="side-foot" id="links" aria-label="Profiles"></nav>
+      </aside>
+
+      <main>
+        <div class="hero">
+          <img class="hero-avatar" id="hero-avatar" alt="" />
+          <h1>Ian Garner Morley</h1>
+          <p class="typing" aria-hidden="true">
+            <b>$</b> <span id="typed"></span><span class="caret"></span>
+          </p>
+          <p class="intro" id="intro"></p>
+        </div>
+
+        <div class="counters" id="counters"></div>
+
+        <section id="specialties-section">
+          <h2>Specialties</h2>
+          <div class="grid" id="specialties"></div>
+        </section>
+
+        <section>
+          <h2>Activity</h2>
+          <div class="panel">
+            <p class="note" id="activity-note">
+              Loading public GitHub activity…
+            </p>
+            <div class="heatmap-wrap">
+              <div class="heatmap" id="heatmap"></div>
+            </div>
+            <div class="legend" id="legend"></div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Public personal projects</h2>
+          <div class="grid repos" id="repos"></div>
+        </section>
+
+        <footer class="site-foot">
+          © <span id="year">2026</span> Ian Garner Morley
+        </footer>
+      </main>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
