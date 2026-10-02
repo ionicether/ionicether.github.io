@@ -373,14 +373,12 @@ async function load() {
   if (!reposRes.ok) return showError(reposRes.status);
 
   const user = await userRes.json();
-  const repos = (await reposRes.json()).filter(
-    (r) => !r.fork && !me.hidden.includes(r.name),
-  );
+  const repos = (await reposRes.json()).filter((r) => !r.fork);
   fillFromGitHub(user);
   repoCount.box.hidden = false;
   countUp(repoCount.num, user.public_repos);
   renderRings(repos);
-  renderRepos(repos);
+  renderRepos(repos.filter((r) => !me.hidden.includes(r.name)));
 
   try {
     const responses = await Promise.all(
