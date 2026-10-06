@@ -74,18 +74,18 @@ const me = {
   devopsStart: 2017,
   languages: 7,
   stats: [
-    [6000, "Servers managed"],
-    [121, "Workloads migrated"],
-    [32, "Pipelines built"],
-    [3000, "CVEs remediated"],
+    [5200, "Servers managed"],
+    [120, "Workloads migrated"],
+    [30, "Pipelines built"],
+    [2300, "CVEs remediated"],
   ],
   featured: [
     "terraform-aws-cost-guard",
+    "zonecheck-operator"
     "denoisejson",
     "puppet-gpo-conflicts",
     "blamforge",
     "vsphere-reportkit",
-    "clear-puppetcerts",
   ],
   hidden: ["ionicether.github.io"],
   repoCount: 6,
