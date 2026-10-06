@@ -88,7 +88,7 @@ const me = {
     "vsphere-reportkit",
   ],
   hidden: ["ionicether.github.io"],
-  repoCount: 6,
+  repoCount: 9,
 };
 
 const $ = (id) => document.getElementById(id);
