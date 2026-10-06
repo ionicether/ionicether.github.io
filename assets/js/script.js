@@ -81,7 +81,7 @@ const me = {
   ],
   featured: [
     "terraform-aws-cost-guard",
-    "zonecheck-operator"
+    "zonecheck-operator",
     "denoisejson",
     "puppet-gpo-conflicts",
     "blamforge",
