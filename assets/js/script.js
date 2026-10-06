@@ -276,29 +276,34 @@ function renderHeatmap(events) {
 
   const end = new Date();
   end.setHours(0, 0, 0, 0);
-  const first = new Date(end);
-  first.setDate(end.getDate() - 29);
-  const start = new Date(first);
-  start.setDate(first.getDate() - first.getDay());
+  const start = new Date(end);
+  start.setDate(end.getDate() - 29);
 
   const days = [];
   for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
-    days.push([new Date(d), d >= first ? perDay[dayKey(d)] || 0 : null]);
+    days.push([new Date(d), perDay[dayKey(d)] || 0]);
   }
 
-  const max = Math.max(1, ...days.map(([, n]) => n ?? 0));
+  const max = Math.max(1, ...days.map(([, n]) => n));
   let total = 0;
   for (const [d, n] of days) {
-    if (n === null) {
-      $("heatmap").append(el("div"));
-      continue;
-    }
     total += n;
     const level = n === 0 ? 0 : Math.ceil((n / max) * (heat.length - 1));
     const cell = el("div", { title: `${n} on ${d.toDateString()}` });
     cell.style.background = heat[level];
     $("heatmap").append(cell);
   }
+
+  const axis = el("div", { className: "heat-axis" });
+  axis.append(
+    el(
+      "span",
+      {},
+      start.toLocaleDateString("en-US", { month: "short", day: "numeric" }),
+    ),
+    el("span", {}, "Today"),
+  );
+  $("heatmap").after(axis);
 
   $("activity-note").textContent =
     `${total} public actions on GitHub in the last 30 days (pushes, PRs, issues, and so on).`;
