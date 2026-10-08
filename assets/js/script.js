@@ -47,7 +47,7 @@ const me = {
       text: "Recovery strategies built on Azure Site Recovery and Veeam, designed and tested so critical systems keep running.",
     },
     {
-      title: "Identity and access",
+      title: "Identity and access management",
       text: "Active Directory and Entra governance, RBAC modeling, GPO strategy, and Privileged Identity Management.",
     },
     {
